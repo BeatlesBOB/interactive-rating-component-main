@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #121417;
+}
+
+.d-none {
+  display: none;
+}
+
+.card--rate {
+  padding: 2em;
+  background-color: #252d37;
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  max-width: 300px;
+  border-radius: 30px;
+}
+
+.card--rate .card--body {
+  margin-top: 30px;
+}
+
+.card--rate .title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card--rate .para {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #959eac;
+}
+
+.card--rate .card--rate-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+
+.card--rate .btn--rate {
+  all: unset;
+  width: 2rem;
+  height: 2rem;
+  font-size: 12px;
+  border-radius: 50%;
+  background-color: #7c8798;
+  color: #959eac;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+}
+
+.card--rate .btn--rate.active {
+  background-color: #fb7413;
+  color: white;
+}
+
+.card--rate .card--footer {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card--rate .btn--submit {
+  all: unset;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fb7413;
+  color: white;
+  border-radius: 30px;
+  padding: .5rem .5rem;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.card--result {
+  padding: 2em;
+  background-color: #252d37;
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  max-width: 300px;
+  border-radius: 30px;
+}
+
+.card--result .card--icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card--result .result--counter {
+  margin-top: 20px;
+  padding: .2rem .5rem;
+  color: #fb7413;
+  background-color: #7c8798;
+  border-radius: 30px;
+  font-size: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.card--result .card--body {
+  margin-top: 35px;
+  color: white;
+}
+
+.card--result .title {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.card--result .para {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #959eac;
+  text-align: center;
+}
+/*# sourceMappingURL=card.css.map */

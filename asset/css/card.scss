@@ -1,0 +1,133 @@
+$primary: hsl(25, 97%, 53%);
+$White: hsl(0, 0%, 100%);
+$LighGrey: hsl(217, 12%, 63%);
+$MediumGrey: hsl(216, 12%, 54%);
+$DarkBlue: hsl(213, 19%, 18%);
+$VeryDarkBlue: hsl(216, 12%, 8%);
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: $VeryDarkBlue;
+
+}
+.d-none{
+    display: none;
+}
+.card--rate{
+    padding: 2em;
+    background-color: $DarkBlue;
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    max-width: 300px;
+    border-radius: 30px;
+    .card--body{
+        margin-top: 30px;
+    }
+    .title{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .para{
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 400;
+        color: $LighGrey;
+    }
+    .card--rate-container{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .btn--rate{
+        all: unset;
+        width:2rem;
+        height:2rem;
+        font-size: 12px;
+        border-radius: 50%;
+        background-color: $MediumGrey;
+        color: $LighGrey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        &.active{
+            background-color: $primary;
+            color: $White;
+        }
+    }
+    .card--footer{
+        margin-top: 20px;
+        display: flex;
+    }
+    .btn--submit{
+        all: unset;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: $primary;
+        color: $White;
+        border-radius: 30px;
+        padding: .5rem .5rem;
+        border: none;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 10px;
+        font-weight: 700;
+
+    }
+}
+
+.card--result{
+    padding: 2em;
+    background-color: $DarkBlue;
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    max-width: 300px;
+    border-radius: 30px;
+    .card--icon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .result--counter{
+        margin-top: 20px;
+        padding: .2rem .5rem;
+        color: $primary;
+        background-color: $MediumGrey;
+        border-radius: 30px;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        width: fit-content;
+        align-self: center;
+    }
+    .card--body{
+        margin-top: 35px;
+        color: $White;
+        // display: flex;
+        // justify-content: center;
+        // flex-direction: column;
+    }
+    .title{
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .para{
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 400;
+        color: $LighGrey;
+        text-align: center;
+    }
+}
